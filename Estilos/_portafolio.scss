@@ -1,0 +1,71 @@
+*{
+   
+$fuente: arial;
+$tamaño-fuente: 18px;
+
+}
+#Portafolio{
+    text-align: center;
+    background-color: $bg;
+    margin: 0;
+    
+    h2{
+        color: $titles;
+        font-size: 50px;
+        background-color: $bg;
+        margin:  0;
+    }
+    h3{
+        color: $titles;
+        font-size: 30px;
+        background-color: $bg;
+        margin: 0;
+    }
+    hr{
+        border: 1px solid white;
+        width: 98%;
+    }
+}
+.servicios{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    background: none;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+    
+    &:hover{
+        transition: 1s all;
+        transform: rotateY(180deg);
+       }
+
+       
+}
+.paginas, .soporte, .consultoria{
+
+    .front, .back{
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/000/237/649/non_2x/vector-abstract-blue-business-technology-background.jpg);
+        color: #f1f7ed;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 30px;
+        backface-visibility: hidden;
+        padding: 10%;
+    }
+    .back{
+        background: #f1f7ed;
+        color:#07889b;
+        transition: 5s all;
+        transform: rotateY(180deg);
+        text-align: justify;
+        font-size: 20px;
+
+    }
+}

@@ -1,0 +1,587 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+* {
+  background-color: white;
+  font-family: arial;
+}
+
+/* Agregadas por Shara*/
+/* Agragadas por Alejandro*/
+header {
+  padding: 1%;
+  background-color: #66B9BF;
+}
+
+header #brand {
+  position: relative;
+  background-color: #66B9BF;
+}
+
+header #brand #logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -60px;
+  display: inline;
+  background-color: #66B9BF;
+}
+
+header #brand h1 {
+  text-align: left;
+  background-color: #66B9BF;
+  padding-left: 15%;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 70px;
+  color: #F1F7ED;
+}
+
+header #menu-nav {
+  float: right;
+  width: 100%;
+  background-color: #66B9BF;
+}
+
+header #menu-nav nav {
+  float: right;
+  background-color: #66B9BF;
+}
+
+header #menu-nav nav ul {
+  background-color: #66B9BF;
+}
+
+header #menu-nav nav ul li {
+  display: inline-block;
+  background-color: #66B9BF;
+}
+
+header #menu-nav nav ul li a {
+  font-family: arial;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 5px 12px;
+  background-color: #E37225;
+  color: #F1F7ED;
+  border-radius: 10%;
+}
+
+header #menu-nav nav ul li a:hover {
+  background-color: #F1F7ED;
+  color: #E37225;
+  border-right: 2px solid #E37225;
+}
+
+header hr {
+  border: 1px solid #F1F7ED;
+  width: 98%;
+}
+
+#presentacion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#presentacion #img-presentation {
+  display: inline-block;
+  margin: 0;
+  background-color: #e37222;
+  width: 100%;
+  height: auto;
+}
+
+#presentacion section {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  font-family: arial;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+#presentacion section p {
+  position: relative;
+  top: -280px;
+  left: -200px;
+  background-color: #e37222;
+  text-align: left;
+}
+
+#presentacion section #p-dos {
+  font-weight: bold;
+  padding: 0 10px;
+  position: absolute;
+  top: -150px;
+  background-color: white;
+  color: #e37222;
+  height: 30px;
+  border: solid 2px white;
+  border-radius: 8px;
+}
+
+#presentacion hr {
+  border: 1px solid white;
+  width: 100%;
+  margin: 0;
+}
+
+body main #participantes {
+  margin: 0 auto;
+}
+
+body main #participantes h2 {
+  color: gray;
+  font-size: 50px;
+  background-color: white;
+  padding: 20px;
+}
+
+body main #participantes .contenedorParticipantes {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 4px;
+  position: relative;
+  background-color: white;
+  border-bottom: 3px solid #07889b;
+  border-right: 3px solid #07889b;
+}
+
+body main #participantes .contenedorParticipantes .izquierda, body main #participantes .contenedorParticipantes .derecha {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  float: left;
+  margin: 5px 20px;
+}
+
+body main #participantes .contenedorParticipantes h4, body main #participantes .contenedorParticipantes .funcion, body main #participantes .contenedorParticipantes .descripcionFuncion {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  display: inline;
+}
+
+body main #participantes .contenedorParticipantes h4 {
+  background-color: #f1f7ed;
+  border-radius: 4px;
+  color: #07889b;
+  width: 110px;
+  margin: 30px auto 0 auto;
+  font-weight: lighter;
+  font-size: 20px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  text-align: center;
+  padding: 0 5px;
+}
+
+body main #participantes .contenedorParticipantes .funcion {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+body main #participantes .contenedorParticipantes .descripcionFuncion {
+  font-size: 13px;
+  text-align: center;
+  width: 60%;
+  text-align: center;
+}
+
+@-webkit-keyframes circuloTamaño {
+  20% {
+    width: 36px;
+    height: 36px;
+  }
+  40% {
+    width: 72px;
+    height: 72px;
+  }
+  60% {
+    width: 108px;
+    height: 108px;
+  }
+  80% {
+    width: 144px;
+    height: 144px;
+  }
+  100% {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@keyframes circuloTamaño {
+  20% {
+    width: 36px;
+    height: 36px;
+  }
+  40% {
+    width: 72px;
+    height: 72px;
+  }
+  60% {
+    width: 108px;
+    height: 108px;
+  }
+  80% {
+    width: 144px;
+    height: 144px;
+  }
+  100% {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+body main #participantes .contenedorParticipantes:hover {
+  height: 200px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+body main #participantes .contenedorParticipantes:hover .circulo {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: #07889b;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  -webkit-animation-name: "circuloTamaño";
+          animation-name: "circuloTamaño";
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body main #participantes .contenedorParticipantes:hover img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body main #participantes .contenedorParticipantes:hover h4 {
+  font-size: 25px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body main #participantes .contenedorParticipantes:hover .funcion {
+  font-size: 20px;
+}
+
+body main #participantes .contenedorParticipantes:hover .descripcionFuncion {
+  font-size: 15px;
+}
+
+body main #formulario {
+  clear: both;
+}
+
+#Portafolio {
+  text-align: center;
+  background-color: #66B9BF;
+  margin: 0;
+}
+
+#Portafolio h2 {
+  color: #f1f7ed;
+  font-size: 50px;
+  background-color: #66B9BF;
+  margin: 0;
+}
+
+#Portafolio h3 {
+  color: #f1f7ed;
+  font-size: 30px;
+  background-color: #66B9BF;
+  margin: 0;
+}
+
+#Portafolio hr {
+  border: 1px solid white;
+  width: 98%;
+}
+
+.servicios {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background: none;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.servicios:hover {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.paginas .front, .paginas .back, .soporte .front, .soporte .back, .consultoria .front, .consultoria .back {
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/237/649/non_2x/vector-abstract-blue-business-technology-background.jpg);
+  color: #f1f7ed;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  padding: 10%;
+}
+
+.paginas .back, .soporte .back, .consultoria .back {
+  background: #f1f7ed;
+  color: #07889b;
+  -webkit-transition: 5s all;
+  transition: 5s all;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  text-align: justify;
+  font-size: 20px;
+}
+
+body main #participantes {
+  margin: 0 auto;
+}
+
+body main #participantes h2 {
+  color: gray;
+  font-size: 50px;
+  background-color: white;
+  padding: 20px;
+}
+
+body main #participantes .contenedorParticipantes {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 4px;
+  position: relative;
+  background-color: white;
+  border-bottom: 3px solid #07889b;
+  border-right: 3px solid #07889b;
+}
+
+body main #participantes .contenedorParticipantes .izquierda, body main #participantes .contenedorParticipantes .derecha {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  float: left;
+  margin: 5px 20px;
+}
+
+body main #participantes .contenedorParticipantes h4, body main #participantes .contenedorParticipantes .funcion, body main #participantes .contenedorParticipantes .descripcionFuncion {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  display: inline;
+}
+
+body main #participantes .contenedorParticipantes h4 {
+  background-color: #f1f7ed;
+  border-radius: 4px;
+  color: #07889b;
+  width: 110px;
+  margin: 30px auto 0 auto;
+  font-weight: lighter;
+  font-size: 20px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  text-align: center;
+  padding: 0 5px;
+}
+
+body main #participantes .contenedorParticipantes .funcion {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+body main #participantes .contenedorParticipantes .descripcionFuncion {
+  font-size: 13px;
+  text-align: center;
+  width: 60%;
+  text-align: center;
+}
+
+@keyframes circuloTamaño {
+  20% {
+    width: 36px;
+    height: 36px;
+  }
+  40% {
+    width: 72px;
+    height: 72px;
+  }
+  60% {
+    width: 108px;
+    height: 108px;
+  }
+  80% {
+    width: 144px;
+    height: 144px;
+  }
+  100% {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+body main #participantes .contenedorParticipantes:hover {
+  height: 200px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+body main #participantes .contenedorParticipantes:hover .circulo {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: #07889b;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  -webkit-animation-name: "circuloTamaño";
+          animation-name: "circuloTamaño";
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body main #participantes .contenedorParticipantes:hover img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body main #participantes .contenedorParticipantes:hover h4 {
+  font-size: 25px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body main #participantes .contenedorParticipantes:hover .funcion {
+  font-size: 20px;
+}
+
+body main #participantes .contenedorParticipantes:hover .descripcionFuncion {
+  font-size: 15px;
+}
+
+body main #formulario {
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+  background-color: #66B9BF;
+  padding-top: 20px;
+  color: #F1F7ED;
+}
+
+.contact {
+  background-color: #66B9BF;
+}
+
+.contact form {
+  border: 4px solid #FF4000;
+  padding: 10px;
+  width: 450px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.contact label, .contact button, .contact input {
+  width: 95%;
+  display: block;
+  margin-top: 10px;
+  border-style: dashed;
+  border-color: 2px #FFBF00;
+}
+
+.contact input {
+  padding: 10px;
+  background-image: url(https://dissenyaweb.com/blog/diseno_web/wp-content/uploads/christian-background-loops.jpg);
+}
+
+.contact button {
+  margin: 10px 0;
+}
+
+.contact button:hover {
+  border: 2px solid #088A29;
+  color: #000;
+  background: none;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  width: 90%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main {
+  width: 90%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: #31B404;
+    width: 100%;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  body main #participantes .contenedorParticipantes {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  p {
+    width: 90%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

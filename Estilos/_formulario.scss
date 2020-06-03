@@ -1,0 +1,56 @@
+*{
+   
+    $fuente: arial;
+    $tamaño-fuente: 18px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+    background-color: $bg;
+    padding-top: 20px;
+    color: #F1F7ED;
+}
+
+.contact {
+    background-color: $bg;
+
+
+    form {
+        
+        border: 4px solid $third-gradient;
+        padding: 10px;
+        width: 450px;
+        $general-font: arial;
+        $font-size: 15px;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    
+    label, button, input {
+        width: 95%;
+        display: block;
+        margin-top: 10px;
+        border-style: dashed;
+        border-color: 2px $fourth-gradient;
+    }
+
+    input{
+        padding: 10px;
+        background-image: url(https://dissenyaweb.com/blog/diseno_web/wp-content/uploads/christian-background-loops.jpg);
+    }
+    
+    button{
+        margin: 10px 0;
+
+        &:hover {
+            border: 2px solid $primary-gradient;
+            color: #000;
+            background: none;
+        }
+    }
+    
+
+}

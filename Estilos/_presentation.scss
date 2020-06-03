@@ -1,0 +1,49 @@
+#presentacion{
+    align-items: center;
+    position: relative;
+    #img-presentation{
+        display: inline-block;
+        margin: 0;
+        background-color: #e37222;
+        
+        width: 100%;
+        height: auto;
+    }
+    section{
+        position: relative;
+        
+        width: 60%;
+        margin: auto;
+        font-family: $general-font;
+        font-size: $font-size-presentation;
+        font-style: italic;
+        color: white;
+        p{
+            position: relative;
+            top: -280px;
+            left: -200px;
+            background-color: #e37222;
+            text-align: left;
+            
+
+        }
+        #p-dos{
+            
+            font-weight: bold;
+            padding: 0 10px;
+            position: absolute;
+            top: -150px;
+            background-color:white;
+            color: #e37222;
+            height: 30px;
+            border: solid 2px white;
+            border-radius: 8px;
+        }
+    }
+    hr{
+        border: 1px solid white;
+        width: 100%;
+        margin: 0;
+    }
+
+}

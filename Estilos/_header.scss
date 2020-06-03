@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+header{
+    padding: 1%;
+    background-color: $bg;
+    #brand{
+        position: relative;
+        background-color: $bg;
+        #logo{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -60px;
+            display: inline;
+            background-color: $bg;
+
+        }
+        h1{
+            text-align: left;
+            background-color: $bg;
+            padding-left: 15%;
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            font-size: $font-size-pagename;
+            color: $font-color-namepage;
+            
+        }
+    }
+    #menu-nav{
+        float: right;
+        width: 100%;
+        background-color: $bg;
+        nav{
+            float: right;
+            background-color: $bg;
+
+            ul{
+                background-color: $bg;
+
+                li{
+                    display:inline-block;
+                    background-color: $bg;
+            
+                    a {
+                        font-family: $general-font;
+                        font-size: medium;
+                        font-weight: bold;
+                        text-decoration: none;
+                        padding: 10px 5px 12px;
+                        background-color: $menu-background-color;
+                        color: $font-color-namepage;
+                        border-radius: 10%;
+                    }
+                    a:hover {
+                        background-color: $font-color-namepage;
+                        color: $menu-background-color;
+                        border-right: 2px solid $menu-background-color;
+                        }
+                }
+
+            }
+            
+        }
+        
+    }
+    hr{
+        border: 1px solid $font-color-namepage;
+        width: 98%;
+    }
+}
+
+

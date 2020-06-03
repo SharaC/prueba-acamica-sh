@@ -1,0 +1,56 @@
+.contenedor {
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.header {
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main {
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    body {
+        background: #31B404;
+        width: 100%;
+        font-size: 20px;
+        font-family: cursive;
+    }
+
+    body{
+        main{
+            #participantes{
+                .contenedorParticipantes{
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    p{
+      width: 90%;
+      height: auto;  
+    }
+
+}
+
+
+
+
